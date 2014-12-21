@@ -3,7 +3,7 @@ defmodule CloudIServiceDbTokyotyrant do
 
   def project do
     [app: :cloudi_service_db_tokyotyrant,
-     version: "1.4.0-rc.4",
+     version: "1.4.0",
      language: :erlang,
      description: description,
      package: package,
@@ -14,7 +14,7 @@ defmodule CloudIServiceDbTokyotyrant do
     [{:etokyotyrant,
       [git: "https://github.com/okeuday/etokyotyrant.git",
        branch: "master"]},
-     {:cloudi_core, "~> 1.4.0-rc.4"}]
+     {:cloudi_core, "~> 1.4.0"}]
   end
 
   defp description do
